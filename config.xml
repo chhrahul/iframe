@@ -9,10 +9,10 @@
         Rahul Chhabra
     </author>
     <content src="index.html" />
-    <allow-navigation href="*" />
-
-
-<plugin name="cordova-plugin-whitelist" />
+<plugin name="cordova-plugin-whitelist"      source="npm" spec="1.1.0" />
+<allow-navigation href="*" />
+<allow-intent href="*" />
+<access origin="*" /> <!-- Required for iOS9 -->
 
 
 
@@ -38,7 +38,7 @@
   <preference name="android-targetSdkVersion" value="15" /> 
   <preference name="android-installLocation" value="auto" /> 
 
-  <access origin="*" subdomains="true" />
+  
 </widget>
 
 
