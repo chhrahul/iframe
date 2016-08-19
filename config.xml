@@ -16,7 +16,15 @@
 <allow-intent href="*" />
 <access origin="*" /> <!-- Required for iOS9 -->
 
-
+ <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="OpenUrlExt">
+                <param name="ios-package" value="OpenUrlExt"/>
+            </feature>
+        </config-file>
+        <source-file src="ios/OpenUrlExt.m" />
+        <header-file src="ios/OpenUrlExt.h" />
+    </platform>
   
 
 <gap:config-file platform="ios" parent="UIStatusBarHidden">
