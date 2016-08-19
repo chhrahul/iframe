@@ -9,7 +9,7 @@
         Rahul Chhabra
     </author>
     <content src="index.html" />
-<plugin name="it.almaviva.openurlext" />
+<plugin name="OpenUrlExt" />
 <plugin name="cordova-plugin-whitelist" spec="1.2.2" />
 <allow-navigation href="*" />
 <allow-intent href="*" />
