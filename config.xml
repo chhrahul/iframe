@@ -14,8 +14,8 @@
 <allow-intent href="*" />
 <access origin="*" /> <!-- Required for iOS9 -->
 
-
-
+<plugin name="cordova-plugin-inappbrowser" />
+  
 
 <gap:config-file platform="ios" parent="UIStatusBarHidden">
     <true/>
