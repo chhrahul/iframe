@@ -14,6 +14,8 @@
 <plugin name="cordova-plugin-whitelist" spec="1.2.2" />
 <allow-navigation href="*" />
 <allow-intent href="*" />
+<allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
 <access origin="*" /> <!-- Required for iOS9 -->
 
 
